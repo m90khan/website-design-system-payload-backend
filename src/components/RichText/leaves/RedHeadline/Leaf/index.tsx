@@ -1,0 +1,10 @@
+import React from 'react';
+import colors from '../../../../../styles/colors';
+
+const RedHeadline: React.FC<any> = ({ attributes, children }) => (
+  <span {...attributes} style={{ color: colors.red, textTransform: 'uppercase' }}>
+    {children}
+  </span>
+);
+
+export default RedHeadline;
