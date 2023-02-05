@@ -12,7 +12,7 @@ import SocialMedia from './globals/SocialMedia';
 import Footer from './globals/Footer';
 
 export default buildConfig({
-  serverURL: 'http://localhost:4000',
+  // serverURL: 'http://localhost:4000',
   admin: {
     user: Users.slug,
   },
